@@ -1,0 +1,7 @@
+Include the JAR file in your project.
+
+Add an agent to your JVM arguments as follows:
+-javaagent:/PATH/TO/JAR/ObjectSize.jar
+
+Call ObjectSizeUtil.getObjectSize() on your object and the size will be returned in bytes.
+Call ObjectSizeUtil.getDeepObjectSize() on your object and all referenced objects will be checked as well.

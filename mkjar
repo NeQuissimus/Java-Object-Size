@@ -1,0 +1,2 @@
+javac ./src/com/nequissimus/library/util/ObjectSizeUtil.java -d ./bin
+jar cmf manifest.txt ObjectSize.jar -C bin com/nequissimus/library/util/ObjectSizeUtil.class
